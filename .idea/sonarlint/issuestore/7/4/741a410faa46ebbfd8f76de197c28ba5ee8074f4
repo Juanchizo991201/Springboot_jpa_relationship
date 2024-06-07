@@ -1,0 +1,20 @@
+
+¤
+java:S3655i"\Call "optionalClient.isPresent()" or "!optionalClient.isEmpty()" before accessing the value.(È¶åÓûÿÿÿÿ8œÑáû1J$631d867e-395a-4551-a036-4fbfe79d114b
+™
+java:S2229%"V"manyToOne's" @Transactional requirement is incompatible with the one for this method.(úÊ‘ö8’œÑáû1J$ac0ee7cb-989b-4669-aada-b8110a51091f
+­
+java:S2229&"j"oneToManyInvoiceBidirectional's" @Transactional requirement is incompatible with the one for this method.(› şŞ8’œÑáû1J$c286c4b2-0b48-49b5-bd9a-b9c4bfd2166f
+˜
+java:S6809%"UCall transactional methods via an injected dependency instead of directly via 'this'.(úÊ‘ö8–œÑáû1J$a1c7ee00-a460-4bec-87f9-a67b639453a7
+˜
+java:S6809&"UCall transactional methods via an injected dependency instead of directly via 'this'.(› şŞ8–œÑáû1J$686ea473-7a4a-41df-845e-91a30cf11adc
+r	java:S106;"+Replace this use of System.out by a logger.(ëàúôşÿÿÿÿ8™œÑáû1J$8e28564a-66bf-4988-bf3b-1f4d2eebe6aa
+m	java:S106\"+Replace this use of System.out by a logger.(äüßí8œÑáû1J$7778b811-a188-492f-90f4-fd622541a11b
+r	java:S106e"+Replace this use of System.out by a logger.(ÇéÃüÿÿÿÿ8œÑáû1J$71dff8d2-70ea-4d6b-888f-b07f5be8a243
+r	java:S106l"+Replace this use of System.out by a logger.(´¢›«ùÿÿÿÿ8 œÑáû1J$b285c93a-b1ed-4cdd-869e-766b4c700669
+m	java:S106z"+Replace this use of System.out by a logger.(äüßí8¡œÑáû1J$2765efbb-23cf-442c-b7d2-63d02563f57d
+n	java:S106€"+Replace this use of System.out by a logger.(Áß‡Ü8¡œÑáû1J$fff112e3-8106-41c7-8752-670729a5b097
+s	java:S106‡"+Replace this use of System.out by a logger.(²ºç§úÿÿÿÿ8¢œÑáû1J$6e5fb3d5-cde8-4073-8edc-09916657587c
+m	java:S106’"+Replace this use of System.out by a logger.(­ëÄ~8£œÑáû1J$16e1f207-443a-45ce-bf07-14698945ac7b
+n	java:S106˜"+Replace this use of System.out by a logger.(Áß‡Ü8ÅÎÑáû1J$9536a4f7-da66-4963-9c19-52640dc749f4
