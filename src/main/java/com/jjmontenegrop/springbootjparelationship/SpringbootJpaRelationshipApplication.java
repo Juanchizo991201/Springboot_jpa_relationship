@@ -36,6 +36,24 @@ public class SpringbootJpaRelationshipApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         manyToOne();
         oneToManyInvoiceBidirectional();
+//        oneToManyInvoiceBidirectionalFindById();
+    }
+
+    @Transactional
+    public void oneToManyInvoiceBidirectionalFindById(){
+
+        Optional<Client> optionalClient = clientRepository.findOne(1L);
+
+        optionalClient.ifPresent(client -> {
+            Invoice invoice1 = new Invoice("Expenses", 700L);
+            Invoice invoice2 = new Invoice("Expenses", 700L);
+
+            client.setInvoices(Arrays.asList(invoice1, invoice2));
+
+            clientRepository.save(client);
+
+            System.out.println("Client: "+client);
+        });
     }
 
     @Transactional
@@ -143,7 +161,7 @@ public class SpringbootJpaRelationshipApplication implements CommandLineRunner {
 
             clientRepository.save(client);
 
-            System.out.println("Client before delete: "+client);
+            System.out.println("Client before delete: " + client);
 
             Optional<Client> optionalClient1 = clientRepository.findOne(client.getId());
             optionalClient1.ifPresent(c -> {
